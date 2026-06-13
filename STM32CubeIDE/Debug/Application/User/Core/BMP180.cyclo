@@ -1,0 +1,11 @@
+../Application/User/Core/BMP180.c:30:9:BMP180_Read8	1
+../Application/User/Core/BMP180.c:43:10:BMP180_Read16	1
+../Application/User/Core/BMP180.c:61:6:BMP180_Write8	1
+../Application/User/Core/BMP180.c:72:10:BMP180_readRawTemperature	2
+../Application/User/Core/BMP180.c:82:9:BMP180_computeB5	1
+../Application/User/Core/BMP180.c:91:9:BMP180_readRawPressure	8
+../Application/User/Core/BMP180.c:120:6:BMP180_Init	3
+../Application/User/Core/BMP180.c:147:7:BMP180_ReadTemperature	1
+../Application/User/Core/BMP180.c:166:9:BMP180_ReadPressure	3
+../Application/User/Core/BMP180.c:214:7:BMP180_PressureToAltitude	1
+../Application/User/Core/BMP180.c:221:7:BMP180_SeaLevelForAltitude	1

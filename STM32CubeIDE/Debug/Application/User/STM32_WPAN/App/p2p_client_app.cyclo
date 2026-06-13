@@ -1,0 +1,10 @@
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:180:6:P2PC_APP_Init	2
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:218:6:P2PC_APP_Notification	5
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:267:6:P2PC_APP_SW1_Button_Action	1
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:286:30:Event_Handler	37
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:573:6:Gatt_Notification	4
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:625:9:P2P_Client_APP_Get_State	1
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:634:12:Write_Char	4
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:683:6:Temperature_update	1
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:713:6:Button_Trigger_Received	2
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:729:6:Update_Service	9
