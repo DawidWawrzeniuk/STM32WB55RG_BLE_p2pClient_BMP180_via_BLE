@@ -98,6 +98,7 @@ static void MX_RF_Init(void);
 /* USER CODE BEGIN 0 */
 uint8_t temperature=0;
 uint32_t pressure=0;
+uint32_t pressure_hPa=0;
 /* USER CODE END 0 */
 
 /**

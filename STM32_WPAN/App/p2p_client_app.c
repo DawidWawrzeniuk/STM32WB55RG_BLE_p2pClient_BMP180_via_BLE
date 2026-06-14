@@ -134,6 +134,8 @@ typedef struct
 /* Private defines ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 extern uint8_t temperature;
+extern uint32_t pressure;
+extern uint32_t pressure_hPa;
 /* USER CODE END PD */
 
 /* Private macros -------------------------------------------------------------*/
@@ -685,8 +687,8 @@ void Temperature_update(void)
     uint8_t payload[2];
     payload[0] = 0x01;   // Device ID
     payload[1] = temperature;     // temperatura 25°C
-
-    APP_DBG_MSG(">> Temperature task executed | ID=%d, TEMP=%d\n", payload[0], payload[1]);
+    payload[2] = pressure;
+    APP_DBG_MSG(">> Temperature task executed | ID=%d, TEMP=%d, PRESS=%d\n", payload[0], payload[1], payload[2]);
 
     Write_Char(P2P_WRITE_CHAR_UUID, 0, payload);
 }
