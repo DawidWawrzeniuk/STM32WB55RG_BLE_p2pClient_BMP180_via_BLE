@@ -6,5 +6,5 @@ C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_cl
 C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:627:9:P2P_Client_APP_Get_State	1
 C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:636:12:Write_Char	4
 C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:685:6:Temperature_update	1
-C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:715:6:Button_Trigger_Received	2
-C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:731:6:Update_Service	9
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:718:6:Button_Trigger_Received	2
+C:/Users/dawi2/STM32CubeIDE/workspace_1.19.0/BLE_p2pClient/STM32_WPAN/App/p2p_client_app.c:734:6:Update_Service	9

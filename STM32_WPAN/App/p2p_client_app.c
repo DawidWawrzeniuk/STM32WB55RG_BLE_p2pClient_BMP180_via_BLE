@@ -647,7 +647,7 @@ tBleStatus Write_Char(uint16_t UUID, uint8_t Service_Instance, uint8_t *pPayload
       case P2P_WRITE_CHAR_UUID: /* SERVER RX -- so CLIENT TX */
         ret = aci_gatt_write_without_resp(aP2PClientContext[index].connHandle,
                                          aP2PClientContext[index].P2PWriteToServerCharHdle,
-                                         2, /* charValueLen */
+                                         6, /* charValueLen */
                                          (uint8_t *)  pPayload);
         break;
       default:
@@ -684,11 +684,14 @@ tBleStatus Write_Char(uint16_t UUID, uint8_t Service_Instance, uint8_t *pPayload
 
 void Temperature_update(void)
 {
-    uint8_t payload[2];
-    payload[0] = 0x01;   // Device ID
-    payload[1] = temperature;     // temperatura 25°C
-    payload[2] = pressure;
-    APP_DBG_MSG(">> Temperature task executed | ID=%d, TEMP=%d, PRESS=%d\n", payload[0], payload[1], payload[2]);
+    uint8_t payload[6];
+    payload[0] = 0x01;               // Device ID
+    payload[1] = temperature;        // temperatura
+    payload[2] = (pressure >> 0) & 0xFF;  // LSB
+    payload[3] = (pressure >> 8) & 0xFF;
+    payload[4] = (pressure >> 16) & 0xFF;
+    payload[5] = (pressure >> 24) & 0xFF; // MSB
+    APP_DBG_MSG(">> TX | ID=%d, TEMP=%d, PRESS=%lu\n",payload[0], payload[1], pressure);
 
     Write_Char(P2P_WRITE_CHAR_UUID, 0, payload);
 }
